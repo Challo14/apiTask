@@ -1,0 +1,17 @@
+// set up git repos
+git init
+
+// added files 
+git add .
+
+// commiting files to github
+git commit -m "modified the project to show task s in ascending order"
+
+// setting u the default branch
+git branch -M main
+
+// setting up the remote origin of the project
+git remote add origin https://github.com/Challo14/demooo.git
+
+// pushing code to github
+git push -u origin main
